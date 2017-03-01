@@ -9,6 +9,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { HeroSearchComponent } from './hero-search.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroService } from './hero.service';
 
@@ -18,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     HeroDetailComponent,
+    HeroSearchComponent,
     HeroesComponent,
     DashboardComponent
   ],
